@@ -1,0 +1,16 @@
+{
+	"name": "MyFirstSqlDB",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DemandForecastingCSSBIHUB",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "AzureSqlTable",
+		"schema": [],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "NaveenLearnSource"
+		}
+	}
+}
